@@ -25,3 +25,16 @@ ___
 3. Support Undo on UI operations.
 4. display only commits by a certain author, by a certain commiter. Between some range of dates, changing a particular file, by tag etc.
 5. display only selected commits This becomes more useful if the user has a very hairy DAG and manually selected two lines of development that s/he care about.
+6. Support selecting commits graphically.
+
+   1.Click on a commit UI element to clear the current selection and add the commit.
+   
+   2.Ctrl click on a commit UI element to add the commit to the current selection.
+   
+   3.Alt click on a commit UI element to remove the associated commit from the current selection.
+   
+   4.Click on a branch to select all the commits starting from the first merge base the the tip of the branch.
+   
+   5.Shift selecting a commit UI element to add all the commits from the current selection to it.
+
+   6.Extend/Contract selection.
