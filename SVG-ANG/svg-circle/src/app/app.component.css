@@ -1,0 +1,9 @@
+circle {
+    fill: cyan;
+    stroke: brown;
+}
+
+.draggable {
+    cursor: move;
+}
+    
