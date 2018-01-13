@@ -1,0 +1,6 @@
+<div *ngIf="recent.length">
+    <p>recent repos</p>
+    <ol>
+        <li *ngFor="let entry of recent">{{entry}}</li>
+    </ol>
+</div>
