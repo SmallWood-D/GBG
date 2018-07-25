@@ -1,0 +1,22 @@
+{
+  "name": "gitserv",
+  "version": "0.0.1",
+  "description": "A simple git server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "keywords": [
+    "git",
+    "gbg"
+  ],
+  "author": "...",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
